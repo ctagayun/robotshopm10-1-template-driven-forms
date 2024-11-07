@@ -439,9 +439,23 @@ Module10: Creating Angular Forms
 
   - Binding to Form Controls with NgModule
       - https://app.pluralsight.com/ilx/video-courses/d5d30ea4-0af1-447a-b13a-e60a095337a6/a4d43da9-1ae5-4f47-9c17-c1c7d34c0103/6262914d-d96b-447f-9e62-5b727e884bb0
-      
-  - Submitting a Template-Driven Form
 
+      - bind sign-in.component.html to data model using 2 way Binding
+
+      -[(ngModel)] is two-way binding. the parenthesis "()" binds from Component
+       to an html element such as "userName". The bracket binds userName to the model.
+      - create this property  credentials: IUserCredentials = { email: '', password: '' };
+        in sign-in.component.ts
+
+  - Submitting a Template-Driven Form
+     - https://app.pluralsight.com/ilx/video-courses/d5d30ea4-0af1-447a-b13a-e60a095337a6/a4d43da9-1ae5-4f47-9c17-c1c7d34c0103/b1febfa4-c35a-488b-8112-6ff9a37225f8
+
+     - add ngSubmit directive in  <form class="form" (ngSubmit)="signIn()"> in sign-in.component.html
+
+     - create signIn()  method in sign-in.component,ts
+
+
+  }
 
 Module11: Organizing Angular Applications with Modules
 
