@@ -7,10 +7,12 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { SiteHeaderComponent } from './site-header/site-header.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { HttpClientModule } from '@angular/common/http';
+
 import { AppRoutingModule } from './app-routing.module';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from './cart/cart.component';
 import { SignInComponent } from './user/sign-in/sign-in.component';
+import { FormsModule } from '@angular/forms';
 /*
   Angular module help us organize our application and
   resolves the template (view) resolution environment
@@ -31,7 +33,8 @@ import { SignInComponent } from './user/sign-in/sign-in.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

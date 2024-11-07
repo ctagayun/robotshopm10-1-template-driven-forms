@@ -434,8 +434,12 @@ Module10: Creating Angular Forms
   - Adding Template-Driven Forms
       - https://app.pluralsight.com/ilx/video-courses/d5d30ea4-0af1-447a-b13a-e60a095337a6/a4d43da9-1ae5-4f47-9c17-c1c7d34c0103/0f969aab-4424-46f8-bc2b-66c823234369
 
-  - Binding to Form Controls with NgModule
+      - import { FormsModule } from '@angular/forms' in AppModule. That's all we need
+      to do to work on template driven forms.
 
+  - Binding to Form Controls with NgModule
+      - https://app.pluralsight.com/ilx/video-courses/d5d30ea4-0af1-447a-b13a-e60a095337a6/a4d43da9-1ae5-4f47-9c17-c1c7d34c0103/6262914d-d96b-447f-9e62-5b727e884bb0
+      
   - Submitting a Template-Driven Form
 
 
